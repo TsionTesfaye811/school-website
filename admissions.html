@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions | High School</title>
+    <link rel="stylesheet" href="admissions.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>High School Admissions</h1>
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="container">
+                <h2>Welcome to Our Admissions Page</h2>
+                <p>We are excited to welcome new students to our high school. Please read the information below to learn more about our admissions process and requirements.</p>
+            </div>
+        </section>
+
+        <section class="requirements">
+            <div class="container">
+                <h2>Admission Requirements</h2>
+                <ul>
+                    <li>Completed application form</li>
+                    <li>Copy of birth certificate</li>
+                    <li>Transcripts from previous schools</li>
+                    <li>Recommendation letters</li>
+                    <li>Entrance exam results</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="process">
+            <div class="container">
+                <h2>Application Process</h2>
+                <ol>
+                    <li>Submit your application form online or in person.</li>
+                    <li>Attend an interview with our admissions team.</li>
+                    <li>Take the entrance exam (if applicable).</li>
+                    <li>Receive your admission decision.</li>
+                    <li>Complete the enrollment paperwork and pay the registration fee.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>If you have any questions about the admissions process, please feel free to contact our admissions office.</p>
+                <form action="admissions.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+                <p>Email: <a href="mailto:admissions@highschool.edu">admissions@highschool.edu</a></p>
+                <p>Phone: <a href="tel:+11234567890">(123) 456-7890</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 High School. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="admissions.js"></script>
+</body>
+</html>
